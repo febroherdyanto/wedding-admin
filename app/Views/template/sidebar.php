@@ -56,6 +56,25 @@
                           </ul>
 
 
+                          <div class="pcoded-navigation-label" data-i18n="nav.category.navigation">Undangan</div>
+                          <ul class="pcoded-item pcoded-left-item">
+                              <li class="">
+                                  <a href="<?= base_url('/inv-pria'); ?>" class="waves-effect waves-dark">
+                                      <span class="pcoded-micon"><i class="fa-solid fa-address-book"></i></span>
+                                      <span class="pcoded-mtext" data-i18n="nav.dash.main">Undangan Pria</span>
+                                      <span class="pcoded-mcaret"></span>
+                                  </a>
+                              </li>
+                              <li class="">
+                                  <a href="<?= base_url('/inv-wanita'); ?>" class="waves-effect waves-dark">
+                                      <span class="pcoded-micon"><i class="fa-solid fa-address-book"></i></span>
+                                      <span class="pcoded-mtext" data-i18n="nav.dash.main">Undangan Wanita</span>
+                                      <span class="pcoded-mcaret"></span>
+                                  </a>
+                              </li>
+                          </ul>
+
+
                           <div class="pcoded-navigation-label" data-i18n="nav.category.forms">Data Kehadiran</div>
                           <ul class="pcoded-item pcoded-left-item">
                               <li>

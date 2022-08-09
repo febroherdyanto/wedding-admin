@@ -38,6 +38,7 @@ $routes->set404Override();
 //$routes->get('/', 'Home::index');
 
 $routes->get('/', 'Page::dashboard');
+$routes->get('/dashboard', 'Page::dashboard');
 
 $routes->get('/kategori', 'Page::kategori');
 $routes->get('/kategori/add', 'Page::addKategori');
@@ -55,6 +56,9 @@ $routes->get('/tamu/delete/(:num)', 'Tamu::deleteTamu/$1');
 
 $routes->get('/kehadiran', 'Page::kehadiran');
 $routes->get('/doa', 'Page::doa');
+
+$routes->get('/inv-pria', 'Invitation::invPria');
+$routes->post('/inv-pria/update/(:num)', 'Invitation::editStatusPria/$1');
 
 /*
  * --------------------------------------------------------------------

@@ -12,7 +12,8 @@
                                 <h5><?= strtoupper($title); ?></h5>
                                 
                                 <p class="text-right">
-                                <a href="<?= base_url('kategori/add'); ?>" class="btn btn-out waves-effect waves-light btn-primary btn-square"><i class="fa fa-plus"></i> Add Data</a>
+                                <a href="#" class="btn btn-out waves-effect waves-light btn-primary btn-square"><i class="fa fa-plus"></i> Add Data</a> <br>
+                                <i>Fitur ini sementara di non-aktifkan</i>
                                 </p>
                             </div>
                             
@@ -41,7 +42,7 @@
                                                     <td><?= $k['namaKategori']; ?></td>
                                                     <td>
                                                         <a href="<?= base_url('kategori/edit/'.$k['idKategori']); ?>" class="btn btn-out waves-effect waves-light btn-primary btn-square"><i class="fa fa-edit"></i> Edit</a>
-                                                        <a href="<?= base_url('kategori/delete/'.$k['idKategori']); ?>" class="btn btn-out waves-effect waves-light btn-danger btn-square"><i class="fa fa-trash"></i> Delete</a>
+                                                        <a href="<?php  echo "#"; //base_url('kategori/delete/'.$k['idKategori']); ?>" class="btn btn-out waves-effect waves-light btn-danger btn-square"><i class="fa fa-trash"></i> Delete</a> | <i>Fitur hapus sementara di non-aktifkan</i>
                                                     </td>
                                                 </tr>
                                             <?php endforeach; else: ?>
