@@ -59,6 +59,8 @@ $routes->get('/doa', 'Page::doa');
 
 $routes->get('/inv-pria', 'Invitation::invPria');
 $routes->post('/inv-pria/update/(:num)', 'Invitation::editStatusPria/$1');
+$routes->get('/inv-wanita', 'Invitation::invWanita');
+$routes->post('/inv-wanita/update/(:num)', 'Invitation::editStatusWanita/$1');
 
 /*
  * --------------------------------------------------------------------

@@ -24,7 +24,7 @@ class App extends BaseConfig
      *
      * @var string
      */
-    public $baseURL = 'http://localhost/wed-admin';
+    public $baseURL = 'http://localhost/wedding-admin';
 
     /**
      * --------------------------------------------------------------------------

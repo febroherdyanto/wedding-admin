@@ -1,0 +1,305 @@
+CRITICAL - 2022-08-11 07:12:52 --> Argument 2 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type int or null, string given, called in C:\Program Files\Ampps\www\wedding-admin\app\Controllers\Invitation.php on line 30
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 32.
+ 1 APPPATH\Controllers\Invitation.php(30): CodeIgniter\HTTP\RedirectResponse->to()
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Invitation->editStatusPria()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 07:13:35 --> Argument 2 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type int or null, string given, called in C:\Program Files\Ampps\www\wedding-admin\app\Controllers\Invitation.php on line 30
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 32.
+ 1 APPPATH\Controllers\Invitation.php(30): CodeIgniter\HTTP\RedirectResponse->to()
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Invitation->editStatusPria()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 07:16:11 --> Argument 2 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type int or null, string given, called in C:\Program Files\Ampps\www\wedding-admin\app\Controllers\Invitation.php on line 30
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 32.
+ 1 APPPATH\Controllers\Invitation.php(30): CodeIgniter\HTTP\RedirectResponse->to()
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Invitation->editStatusPria()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 07:36:13 --> The route for "https://api.textmebot.com/send.php?recipient=6285215565501&apikey=ok8YnCnAybJB&text=Assalamu'alaikum Warahmatullahi Wabarakaatuh 
+                                                            %0AFebro H di UPB Cikarang, 
+                                                            %0A
+                                                            %0ADengan memohon rahmat dan ridho Allah SWT, kami mengundang Bapak/Ibu/Saudara/i untuk menghadiri pernikahan kami, yang insyaAllah akan dilaksanakan pada:
+                                                            %0A%0AAkad Nikah
+                                                            %0AHari/Tanggal: Kamis, 22 September 2022
+                                                            %0AJam: 09.00 WIB
+                                                            %0ATempat: Bertempat di kediaman Mempelai Wanita. Dukuh Wates RT/RW 017/003, Desa Kedungbanteng, Pilangkenceng, Madiun 
+                                                            
+                                                            %0A%0AResepsi Pernikahan
+                                                            %0AHari/Tanggal: Kamis, 22 September 2022
+                                                            %0AJam: 13.00 WIB
+                                                            %0ATempat: Bertempat di kediaman Mempelai Wanita. Dukuh Wates RT/RW 017/003, Desa Kedungbanteng, Pilangkenceng, Madiun
+                                                            
+                                                            %0A%0ANgunduh Mantu
+                                                            %0AHari/Tanggal: Sabtu, 24 September 2022
+                                                            %0AJam: 10.00 WIB
+                                                            %0ATempat: Bertempat di kediaman Mempelai Pria. Perum. Star Regency Blok A, Dusun Blimbing, Desa Klecorejo, Mejayan, Madiun
+                                                            
+                                                            %0A%0AKehadiran Anda adalah silaturahmi, doa restu Anda adalah kado terindah bagi kami, kehadiran Anda adalah doa restu yang tak ternilai harganya.
+                                                            %0AJazakumullahu khairan katsiran, hanya kepada ilahi rabbi tercurah doa sebagai ungkapan terima kasih kami. 
+                                                            %0AWassalamu'alaikum warahmatullahi wabarakatuh&footer=Invitation Link : https://wedding.febroherdyanto.id/nauval-632&button1=Ya, Pasti Hadir&
+                                                            button2=Mohon Maaf, belum bisa hadir&json=yes" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+ 2 SYSTEMPATH\Common.php(864): CodeIgniter\HTTP\RedirectResponse->route()
+ 3 APPPATH\Controllers\Invitation.php(30): redirect()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Invitation->editStatusPria()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 07:36:55 --> Header may not contain more than a single header, new line detected
+in SYSTEMPATH\HTTP\ResponseTrait.php on line 474.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\HTTP\ResponseTrait.php(474): header()
+ 3 SYSTEMPATH\HTTP\ResponseTrait.php(444): CodeIgniter\HTTP\Response->sendHeaders()
+ 4 SYSTEMPATH\CodeIgniter.php(1076): CodeIgniter\HTTP\Response->send()
+ 5 SYSTEMPATH\CodeIgniter.php(510): CodeIgniter\CodeIgniter->sendResponse()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 07:37:08 --> Header may not contain more than a single header, new line detected
+in SYSTEMPATH\HTTP\ResponseTrait.php on line 474.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\HTTP\ResponseTrait.php(474): header()
+ 3 SYSTEMPATH\HTTP\ResponseTrait.php(444): CodeIgniter\HTTP\Response->sendHeaders()
+ 4 SYSTEMPATH\CodeIgniter.php(1076): CodeIgniter\HTTP\Response->send()
+ 5 SYSTEMPATH\CodeIgniter.php(510): CodeIgniter\CodeIgniter->sendResponse()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 07:37:31 --> Header may not contain more than a single header, new line detected
+in APPPATH\Controllers\Invitation.php on line 30.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Invitation.php(30): header()
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Invitation->editStatusPria()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 07:42:39 --> Header may not contain more than a single header, new line detected
+in APPPATH\Controllers\Invitation.php on line 30.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Invitation.php(30): header()
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Invitation->editStatusPria()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-11 08:14:49 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\Program Files\Ampps\www\wedding-admin\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Program Files\Ampps\www\wedding-admin\system\Database\MySQLi\Connection.php(292): mysqli->query()
+#1 C:\Program Files\Ampps\www\wedding-admin\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\Program Files\Ampps\www\wedding-admin\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\Program Files\Ampps\www\wedding-admin\system\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query()
+#4 C:\Program Files\Ampps\www\wedding-admin\app\Controllers\Invitation.php(33): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\Program Files\Ampps\www\wedding-admin\system\CodeIgniter.php(898): App\Controllers\Invitation->editStatusPria()
+#6 C:\Program Files\Ampps\www\wedding-admin\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 C:\Program Files\Ampps\www\wedding-admin\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\Program Files\Ampps\www\wedding-admin\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-08-11 08:14:49 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2078): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH\Controllers\Invitation.php(33): CodeIgniter\Database\BaseBuilder->update()
+ 6 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Invitation->editStatusPria()
+ 7 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 08:19:17 --> The route for "https://api.textmebot.com/send.php?recipient=6285215565501&apikey=ok8YnCnAybJB&text=_Assalamu'alaikum Warahmatullahi Wabarakaatuh_
+                                                            %0A*Febro H* di UPB Cikarang,
+                                                            %0A
+                                                            %0ADengan memohon rahmat dan ridho Allah SWT, kami mengundang Bapak/Ibu/Saudara/i untuk menghadiri pernikahan kami, yang insyaAllah akan dilaksanakan pada: 
+                                                            %0A
+                                                            %0A*Akad Nikah*
+                                                            %0AHari/Tanggal  : Kamis, 22 September 2022 
+                                                            %0AJam                 : 09.00 WIB 
+                                                            %0ATempat           : Bertempat di kediaman Mempelai Wanita.
+                                                            %0A_Dukuh Wates RT/RW 017/003, Desa Kedungbanteng, Pilangkenceng, Madiun_ 
+                                                            %0A
+                                                            %0A*Resepsi Pernikahan*
+                                                            %0AHari/Tanggal : Kamis, 22 September 2022 
+                                                            %0AJam                : 13.00 WIB 
+                                                            %0ATempat          : Bertempat di kediaman Mempelai Wanita.
+                                                            %0A_Dukuh Wates RT/RW 017/003, Desa Kedungbanteng, Pilangkenceng, Madiun_
+                                                            %0A
+                                                            %0A*Ngunduh Mantu*
+                                                            %0AHari/Tanggal : Sabtu, 24 September 2022 
+                                                            %0AJam                : 10.00 WIB 
+                                                            %0ATempat          : Bertempat di kediaman Mempelai Pria.
+                                                            %0A_Perum. Star Regency Blok A, Dusun Blimbing, Desa Klecorejo, Mejayan, Madiun_
+                                                            %0A
+                                                            %0AKehadiran Anda adalah silaturahmi, Do'a restu Anda adalah kado terindah bagi kami yang tak ternilai harganya.
+                                                            %0A
+                                                            %0AJazakumullahu khairan katsiran, hanya kepada ilahi rabbi tercurah doa sebagai ungkapan terima kasih kami. 
+                                                            %0A
+                                                            %0A_Wassalamu'alaikum warahmatullahi wabarakatuh_
+                                                            %0A
+                                                            %0AKami yang berbahagia,
+                                                            %0A*_Febro dan Mustika_*&footer=Invitation Link : https://wedding.febroherdyanto.id/nauval-632&button1=Ya, Pasti Hadir&
+                                                            button2=Mohon Maaf, belum bisa hadir&json=yes" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+ 2 SYSTEMPATH\Common.php(864): CodeIgniter\HTTP\RedirectResponse->route()
+ 3 APPPATH\Controllers\Invitation.php(36): redirect()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Invitation->editStatusPria()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 08:19:58 --> Undefined property: App\Controllers\Invitation::$load
+in APPPATH\Controllers\Invitation.php on line 36.
+ 1 APPPATH\Controllers\Invitation.php(36): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Invitation->editStatusPria()
+ 3 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 08:20:10 --> The route for "https://api.textmebot.com/send.php?recipient=6285215565501&apikey=ok8YnCnAybJB&text=_Assalamu'alaikum Warahmatullahi Wabarakaatuh_
+                                                            %0A*Febro H* di UPB Cikarang,
+                                                            %0A
+                                                            %0ADengan memohon rahmat dan ridho Allah SWT, kami mengundang Bapak/Ibu/Saudara/i untuk menghadiri pernikahan kami, yang insyaAllah akan dilaksanakan pada: 
+                                                            %0A
+                                                            %0A*Akad Nikah*
+                                                            %0AHari/Tanggal  : Kamis, 22 September 2022 
+                                                            %0AJam                 : 09.00 WIB 
+                                                            %0ATempat           : Bertempat di kediaman Mempelai Wanita.
+                                                            %0A_Dukuh Wates RT/RW 017/003, Desa Kedungbanteng, Pilangkenceng, Madiun_ 
+                                                            %0A
+                                                            %0A*Resepsi Pernikahan*
+                                                            %0AHari/Tanggal : Kamis, 22 September 2022 
+                                                            %0AJam                : 13.00 WIB 
+                                                            %0ATempat          : Bertempat di kediaman Mempelai Wanita.
+                                                            %0A_Dukuh Wates RT/RW 017/003, Desa Kedungbanteng, Pilangkenceng, Madiun_
+                                                            %0A
+                                                            %0A*Ngunduh Mantu*
+                                                            %0AHari/Tanggal : Sabtu, 24 September 2022 
+                                                            %0AJam                : 10.00 WIB 
+                                                            %0ATempat          : Bertempat di kediaman Mempelai Pria.
+                                                            %0A_Perum. Star Regency Blok A, Dusun Blimbing, Desa Klecorejo, Mejayan, Madiun_
+                                                            %0A
+                                                            %0AKehadiran Anda adalah silaturahmi, Do'a restu Anda adalah kado terindah bagi kami yang tak ternilai harganya.
+                                                            %0A
+                                                            %0AJazakumullahu khairan katsiran, hanya kepada ilahi rabbi tercurah doa sebagai ungkapan terima kasih kami. 
+                                                            %0A
+                                                            %0A_Wassalamu'alaikum warahmatullahi wabarakatuh_
+                                                            %0A
+                                                            %0AKami yang berbahagia,
+                                                            %0A*_Febro dan Mustika_*&footer=Invitation Link : https://wedding.febroherdyanto.id/nauval-632&button1=Ya, Pasti Hadir&
+                                                            button2=Mohon Maaf, belum bisa hadir&json=yes" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+ 2 SYSTEMPATH\Common.php(864): CodeIgniter\HTTP\RedirectResponse->route()
+ 3 APPPATH\Controllers\Invitation.php(37): redirect()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Invitation->editStatusPria()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 08:21:41 --> The route for "https://api.textmebot.com/send.php?recipient=6285215565501&apikey=ok8YnCnAybJB&text=_Assalamu'alaikum Warahmatullahi Wabarakaatuh_
+                                                            %0A*Febro H* di UPB Cikarang,
+                                                            %0A
+                                                            %0ADengan memohon rahmat dan ridho Allah SWT, kami mengundang Bapak/Ibu/Saudara/i untuk menghadiri pernikahan kami, yang insyaAllah akan dilaksanakan pada: 
+                                                            %0A
+                                                            %0A*Akad Nikah*
+                                                            %0AHari/Tanggal  : Kamis, 22 September 2022 
+                                                            %0AJam                 : 09.00 WIB 
+                                                            %0ATempat           : Bertempat di kediaman Mempelai Wanita.
+                                                            %0A_Dukuh Wates RT/RW 017/003, Desa Kedungbanteng, Pilangkenceng, Madiun_ 
+                                                            %0A
+                                                            %0A*Resepsi Pernikahan*
+                                                            %0AHari/Tanggal : Kamis, 22 September 2022 
+                                                            %0AJam                : 13.00 WIB 
+                                                            %0ATempat          : Bertempat di kediaman Mempelai Wanita.
+                                                            %0A_Dukuh Wates RT/RW 017/003, Desa Kedungbanteng, Pilangkenceng, Madiun_
+                                                            %0A
+                                                            %0A*Ngunduh Mantu*
+                                                            %0AHari/Tanggal : Sabtu, 24 September 2022 
+                                                            %0AJam                : 10.00 WIB 
+                                                            %0ATempat          : Bertempat di kediaman Mempelai Pria.
+                                                            %0A_Perum. Star Regency Blok A, Dusun Blimbing, Desa Klecorejo, Mejayan, Madiun_
+                                                            %0A
+                                                            %0AKehadiran Anda adalah silaturahmi, Do'a restu Anda adalah kado terindah bagi kami yang tak ternilai harganya.
+                                                            %0A
+                                                            %0AJazakumullahu khairan katsiran, hanya kepada ilahi rabbi tercurah doa sebagai ungkapan terima kasih kami. 
+                                                            %0A
+                                                            %0A_Wassalamu'alaikum warahmatullahi wabarakatuh_
+                                                            %0A
+                                                            %0AKami yang berbahagia,
+                                                            %0A*_Febro dan Mustika_*&footer=Invitation Link : https://wedding.febroherdyanto.id/nauval-632&button1=Ya, Pasti Hadir&
+                                                            button2=Mohon Maaf, belum bisa hadir&json=yes" cannot be found.
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 60.
+ 1 SYSTEMPATH\HTTP\RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+ 2 SYSTEMPATH\Common.php(864): CodeIgniter\HTTP\RedirectResponse->route()
+ 3 APPPATH\Controllers\Invitation.php(37): redirect()
+ 4 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Invitation->editStatusPria()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 08:21:51 --> Header may not contain more than a single header, new line detected
+in APPPATH\Controllers\Invitation.php on line 37.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Invitation.php(37): header()
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Invitation->editStatusPria()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 08:26:33 --> Header may not contain more than a single header, new line detected
+in APPPATH\Controllers\Invitation.php on line 37.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Invitation.php(37): header()
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Invitation->editStatusPria()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 08:28:50 --> Header may not contain more than a single header, new line detected
+in APPPATH\Controllers\Invitation.php on line 37.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Invitation.php(37): header()
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Invitation->editStatusPria()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 08:28:57 --> Header may not contain more than a single header, new line detected
+in APPPATH\Controllers\Invitation.php on line 37.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Invitation.php(37): header()
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Invitation->editStatusPria()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-08-11 08:33:59 --> Header may not contain more than a single header, new line detected
+in APPPATH\Controllers\Invitation.php on line 38.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Invitation.php(38): header()
+ 3 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Invitation->editStatusPria()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-08-11 09:17:13 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and namaGuest ASC' at line 1 in C:\Program Files\Ampps\www\wedding-admin\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\Program Files\Ampps\www\wedding-admin\system\Database\MySQLi\Connection.php(292): mysqli->query()
+#1 C:\Program Files\Ampps\www\wedding-admin\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\Program Files\Ampps\www\wedding-admin\system\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\Program Files\Ampps\www\wedding-admin\app\Views\invPria.php(60): CodeIgniter\Database\BaseConnection->query()
+#4 C:\Program Files\Ampps\www\wedding-admin\system\View\View.php(213): include('C:\\Program File...')
+#5 C:\Program Files\Ampps\www\wedding-admin\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\Program Files\Ampps\www\wedding-admin\system\Common.php(1137): CodeIgniter\View\View->render()
+#7 C:\Program Files\Ampps\www\wedding-admin\app\Controllers\Invitation.php(19): view()
+#8 C:\Program Files\Ampps\www\wedding-admin\system\CodeIgniter.php(898): App\Controllers\Invitation->invPria()
+#9 C:\Program Files\Ampps\www\wedding-admin\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#10 C:\Program Files\Ampps\www\wedding-admin\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#11 C:\Program Files\Ampps\www\wedding-admin\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-08-11 09:17:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and namaGuest ASC' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 APPPATH\Views\invPria.php(60): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\invPria.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render()
+ 8 APPPATH\Controllers\Invitation.php(19): view()
+ 9 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Invitation->invPria()
+10 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

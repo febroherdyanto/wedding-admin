@@ -57,7 +57,7 @@
 
                                             $no = 1;
                                             $db      = \Config\Database::connect();
-                                            $query   = $db->query("SELECT * FROM guest WHERE idKategori = 1 ORDER BY msgStatus DESC, namaGuest ASC");
+                                            $query   = $db->query("SELECT * FROM guest WHERE idKategori = 2 ORDER BY msgStatus DESC, namaGuest ASC");
                                             $inv = $query->getResultArray();
                                             if($inv): foreach ($inv as $v):
                                                 $idGuest = $v['idGuest'];
