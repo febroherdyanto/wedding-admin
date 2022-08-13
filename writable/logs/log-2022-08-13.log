@@ -1,0 +1,15 @@
+CRITICAL - 2022-08-13 01:08:54 --> Undefined variable: datawarga
+in APPPATH\Views\content.php on line 22.
+ 1 APPPATH\Views\content.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\content.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render()
+ 5 APPPATH\Views\dashboard.php(8): CodeIgniter\View\View->include()
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1137): CodeIgniter\View\View->render()
+ 9 APPPATH\Controllers\Page.php(12): view()
+10 SYSTEMPATH\CodeIgniter.php(898): App\Controllers\Page->dashboard()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
