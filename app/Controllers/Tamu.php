@@ -21,7 +21,7 @@ class Tamu extends BaseController
 
     public function addTamu(){
         $title = 'Tambah Tamu';
-        return view('addTamu', compact('title'));
+        return view('addtamu', compact('title'));
     }
 
     public function saveTamu(){
