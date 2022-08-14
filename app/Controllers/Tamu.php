@@ -19,6 +19,18 @@ class Tamu extends BaseController
         $this->TamuModel = new TamuModel($db);
     }
 
+    public function tamuPria(){
+        $title = 'Data Tamu Pria';
+
+        return view('tamupria', compact('title'));
+    }
+
+    public function tamuWanita(){
+        $title = 'Data Tamu Wanita';
+
+        return view('tamuwanita', compact('title'));
+    }
+
     public function addTamu(){
         $title = 'Tambah Tamu';
         return view('addtamu', compact('title'));

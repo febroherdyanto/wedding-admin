@@ -48,6 +48,8 @@ $routes->get('/kategori/delete/(:num)', 'Page::deleteKategori/$1');
 $routes->post('/kategori/update/(:num)', 'Page::updateKategori/$1');
 
 $routes->get('/tamu', 'Tamu::index');
+$routes->get('/tamu/pria', 'Tamu::tamuPria');
+$routes->get('/tamu/wanita', 'Tamu::tamuWanita');
 $routes->get('/tamu/add', 'Tamu::addTamu');
 $routes->post('/tamu/save', 'Tamu::saveTamu');
 $routes->get('/tamu/edit/(:num)', 'Tamu::editTamu/$1');

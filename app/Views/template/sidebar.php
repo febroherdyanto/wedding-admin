@@ -53,6 +53,20 @@
                                       <span class="pcoded-mcaret"></span>
                                   </a>
                               </li>
+                              <li class="">
+                                  <a href="<?= base_url('/tamu/pria'); ?>" class="waves-effect waves-dark">
+                                      <span class="pcoded-micon"><i class="fa-solid fa-person"></i></span>
+                                      <span class="pcoded-mtext" data-i18n="nav.dash.main">Data Tamu Pria</span>
+                                      <span class="pcoded-mcaret"></span>
+                                  </a>
+                              </li>
+                              <li class="">
+                                  <a href="<?= base_url('/tamu/wanita'); ?>" class="waves-effect waves-dark">
+                                      <span class="pcoded-micon"><i class="fa-solid fa-person-dress"></i></span>
+                                      <span class="pcoded-mtext" data-i18n="nav.dash.main">Data Tamu Wanita</span>
+                                      <span class="pcoded-mcaret"></span>
+                                  </a>
+                              </li>
                           </ul>
 
 
