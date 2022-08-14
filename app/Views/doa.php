@@ -1,5 +1,6 @@
 <?= $this->include('template/headerforcontent'); ?>
 
+
 <!-- Page-header end -->
 <div class="pcoded-inner-content">
     <div class="main-body">
@@ -17,34 +18,31 @@
                             </div>
                             
                             <div class="card-block">
-                                <div class="table-responsive">
+                                <div class="table-sm table-responsive ">
                                     <table id="datatableFbr" class="table table-hover">
                                         <thead>
                                             <tr>
-                                                <th>#</th>
-                                                <th>Waktu</th>
-                                                <th>Nama</th>
-                                                <th>Doa dan Harapan</th>
-                                                <th>Pesan</th>
+                                                <th width="10%">#</th>
+                                                <th width="20%">Waktu</th>
+                                                <th width="20%">Nama</th>
+                                                <th width="40%">Doa dan Harapan</th>
+                                                <th width="10%">IP Address</th>
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <?php
                                             $no = 1;
                                             $db      = \Config\Database::connect();
-                                            $query   = $db->query("SELECT * FROM kehadiran");
+                                            $query   = $db->query("SELECT * FROM doa");
                                             $hadir = $query->getResultArray();
                                             if($hadir): foreach ($hadir as $h):
                                                 ?>
                                                 <tr>
                                                     <td><?= $no++; ?></td>
                                                     <td><?= $h['waktu']; ?></td>
-                                                    <td>
-                                                        <?php $ceknama = $db->query("SELECT * FROM guest WHERE idGuest = '".$h['idGuest']."'")->getRowArray(); ?>
-                                                        <?= $ceknama['namaGuest']; ?>
-                                                    </td>
-                                                    <td><?= $h['statusKehadiran']; ?></td>
-                                                    <td><?= $h['pesan']; ?></td>
+                                                    <td><?= $h['pengirimDoa']; ?></td>
+                                                    <td><?= $h['ucapanDoa']; ?></td>
+                                                    <td><?= $h['ipaddress']; ?></td>
                                                 </tr>
                                             <?php endforeach; else: ?>
                                                 <tr>

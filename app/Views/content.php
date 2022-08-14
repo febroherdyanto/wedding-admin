@@ -48,7 +48,7 @@
                                                     <div class="card-block">
                                                         <div class="row align-items-center">
                                                             <div class="col-8">
-                                                                <h4 class="text-c-red">
+                                                                <h4 class="text-c-green">
                                                                     <?php $db      = \Config\Database::connect();
                                                                     $db = db_connect();
                                                                     
@@ -64,7 +64,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="card-footer bg-c-blue">
+                                                    <div class="card-footer bg-c-purple">
                                                         <div class="row align-items-center">
                                                             <div class="col-9">
                                                                 <p class="text-white m-b-0"><i>Updated data on  <?php echo date('d - M - Y') ?>.</i></p>
@@ -83,7 +83,7 @@
                                                     <div class="card-block">
                                                         <div class="row align-items-center">
                                                             <div class="col-8">
-                                                                <h4 class="text-c-red">
+                                                                <h4 class="text-c-green">
                                                                     <?php $db      = \Config\Database::connect();
                                                                     $db = db_connect();
                                                                     
@@ -99,7 +99,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="card-footer bg-c-blue">
+                                                    <div class="card-footer bg-c-purple">
                                                         <div class="row align-items-center">
                                                             <div class="col-9">
                                                                 <p class="text-white m-b-0"><i>Updated data on  <?php echo date('d - M - Y') ?>.</i></p>
@@ -117,11 +117,143 @@
                                                     <div class="card-block">
                                                         <div class="row align-items-center">
                                                             <div class="col-8">
-                                                                <h4 class="text-c-green">
-                                                                    Orang
+                                                                <h4 class="text-c-purple">
+                                                                    <?php $db      = \Config\Database::connect();
+                                                                    $db = db_connect();
                                                                     
+                                                                    $qjmldoa = $db->query("select count(*) as idDoa from doa");
+                                                                    $doa = $qjmldoa->getResultArray();
+                                                                    echo $doa[0]['idDoa']; ?> Doa / Harapan
                                                                 </h4>
-                                                                <h6 class="text-muted m-b-0">Jumlah Warga</h6>
+                                                                <h6 class="text-muted m-b-0">Total Doa dan Harapan</h6>
+                                                            </div>
+                                                            <div class="col-4 text-right">
+                                                                <i class="fa-solid fa-3x fa-hands-praying"></i>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card-footer bg-c-purple">
+                                                        <div class="row align-items-center">
+                                                            <div class="col-9">
+                                                                <p class="text-white m-b-0"><i>Updated data.</i></p>
+                                                            </div>
+                                                            <div class="col-3 text-right">
+                                                                <i class="fa fa-line-chart text-white f-16"></i>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-3 col-md-6">
+                                                <div class="card">
+                                                    <div class="card-block">
+                                                        <div class="row align-items-center">
+                                                            <div class="col-8">
+                                                                <h4 class="text-c-green">
+                                                                    <?php $db      = \Config\Database::connect();
+                                                                    $db = db_connect();
+                                                                    
+                                                                    $qhadir = $db->query("select count(*) as idKehadiran from kehadiran where statusKehadiran = 'YA'");
+                                                                    $hadir = $qhadir->getResultArray();
+                                                                    echo $hadir[0]['idKehadiran']; ?> Tamu
+                                                                </h4>
+                                                                <h6 class="text-muted m-b-0">Kehadiran YA</h6>
+                                                            </div>
+                                                            <div class="col-4 text-right">
+                                                                <i class="fa-solid fa-3x fa-user-check"></i>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card-footer bg-c-green">
+                                                        <div class="row align-items-center">
+                                                            <div class="col-9">
+                                                                <p class="text-white m-b-0"><i>Updated data.</i></p>
+                                                            </div>
+                                                            <div class="col-3 text-right">
+                                                                <i class="fa fa-line-chart text-white f-16"></i>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-3 col-md-6">
+                                                <div class="card">
+                                                    <div class="card-block">
+                                                        <div class="row align-items-center">
+                                                            <div class="col-8">
+                                                                <h4 class="text-c-blue">
+                                                                    <?php $db      = \Config\Database::connect();
+                                                                    $db = db_connect();
+                                                                    
+                                                                    $qhadir = $db->query("select count(*) as idKehadiran from kehadiran where statusKehadiran = 'MUNGKIN'");
+                                                                    $hadir = $qhadir->getResultArray();
+                                                                    echo $hadir[0]['idKehadiran']; ?> Tamu
+                                                                </h4>
+                                                                <h6 class="text-muted m-b-0">Kehadiran MUNGKIN</h6>
+                                                            </div>
+                                                            <div class="col-4 text-right">
+                                                                <i class="fa-solid fa-3x fa-person-circle-question"></i>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card-footer bg-c-green">
+                                                        <div class="row align-items-center">
+                                                            <div class="col-9">
+                                                                <p class="text-white m-b-0"><i>Updated data.</i></p>
+                                                            </div>
+                                                            <div class="col-3 text-right">
+                                                                <i class="fa fa-line-chart text-white f-16"></i>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-3 col-md-6">
+                                                <div class="card">
+                                                    <div class="card-block">
+                                                        <div class="row align-items-center">
+                                                            <div class="col-8">
+                                                                <h4 class="text-c-red">
+                                                                    <?php $db      = \Config\Database::connect();
+                                                                    $db = db_connect();
+                                                                    
+                                                                    $qhadir = $db->query("select count(*) as idKehadiran from kehadiran where statusKehadiran = 'TIDAK'");
+                                                                    $hadir = $qhadir->getResultArray();
+                                                                    echo $hadir[0]['idKehadiran']; ?> Tamu
+                                                                </h4>
+                                                                <h6 class="text-muted m-b-0">Kehadiran TIDAK</h6>
+                                                            </div>
+                                                            <div class="col-4 text-right">
+                                                                <i class="fa-solid fa-3x fa-user-xmark"></i>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card-footer bg-c-green">
+                                                        <div class="row align-items-center">
+                                                            <div class="col-9">
+                                                                <p class="text-white m-b-0"><i>Updated data.</i></p>
+                                                            </div>
+                                                            <div class="col-3 text-right">
+                                                                <i class="fa fa-line-chart text-white f-16"></i>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-3 col-md-6">
+                                                <div class="card">
+                                                    <div class="card-block">
+                                                        <div class="row align-items-center">
+                                                            <div class="col-8">
+                                                                <h4 class="text-c-black">
+                                                                    <?php $db      = \Config\Database::connect();
+                                                                    $db = db_connect();
+                                                                    
+                                                                    $qhadir = $db->query("select count(*) as idKehadiran from kehadiran");
+                                                                    $hadir = $qhadir->getResultArray();
+                                                                    echo $hadir[0]['idKehadiran']; ?> Tamu
+                                                                </h4>
+                                                                <h6 class="text-muted m-b-0">Jumlah Kehadiran</h6>
                                                             </div>
                                                             <div class="col-4 text-right">
                                                                 <i class="fa-solid fa-3x fa-people-roof"></i>
