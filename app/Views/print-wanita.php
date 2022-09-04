@@ -60,9 +60,9 @@
                         <tr>
                             <td style="width: 4cm; height: 2cm;">
                                 <span class="nama">
-                                    <?= $k['namaGuest']; ?>
+                                    <b><?= $k['namaGuest']; ?></b>
                                     <br> di<br>
-                                    <?= $k['alamatGuest']; ?>
+                                    <i><?= $k['alamatGuest']; ?></i>
                                     <input id="text" type="hidden" value="https://wedding.febroherdyanto.id/<?= $k['nicknameGuest']; ?>" hidden>
                                 </span>
                             </td>
