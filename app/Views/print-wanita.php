@@ -68,7 +68,7 @@
                                     </b>
                                     <br> di<br>
                                     <i><?= $k['alamatGuest']; ?></i>
-                                    <input id="text" type="hidden" value="https://wedding.febroherdyanto.id/<?= $k['nicknameGuest']; ?>" hidden>
+                                    <input id="text<?= $k['idGuest']; ?>" type="hidden" value="https://wedding.febroherdyanto.id/<?= $k['nicknameGuest']; ?>" hidden>
                                 </span>
                             </td>
                             <td style="width: 2cm; height: 2cm;">
@@ -90,7 +90,7 @@ var qrcode = new QRCode(document.getElementById("qrcode<?= $k['idGuest']; ?>"), 
 });
 
 function makeCode () {		
-	var elText = document.getElementById("text");
+	var elText = document.getElementById("text<?= $k['idGuest']; ?>");
 	
 	if (!elText.value) {
 		alert("Input a text");
@@ -103,7 +103,7 @@ function makeCode () {
 
 makeCode();
 
-$("#text").
+$("#text<?= $k['idGuest']; ?>").
 	on("blur", function () {
 		makeCode();
 	}).

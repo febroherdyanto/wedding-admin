@@ -68,29 +68,30 @@
                                     </b>
                                     <br> di<br>
                                     <i><?= $k['alamatGuest']; ?></i>
-                                    <input id="text" type="hidden" value="https://wedding.febroherdyanto.id/<?= $k['nicknameGuest']; ?>" hidden>
+                                    <input id="text<?= $k['idGuest']; ?>" type="hidden" value="https://wedding.febroherdyanto.id/<?= $k['nicknameGuest']; ?>" hidden>
                                 </span>
                             </td>
                             <td style="width: 2cm; height: 2cm;">
                                 <span class="img" align="center">
-                                    <span id="qrcode<?= $k['idGuest']; ?>" style="align-content:center; margin-top:15px;"></span>
+                                    <span id="<?= $k['nicknameGuest']; ?>" style="align-content:center; margin-top:15px;"></span>
                                 </span>
                             </td>
                         </tr>
                     </table>
+                    <span style="font-size: 5px;">https://wedding.febroherdyanto.id/<?= $k['nicknameGuest']; ?></span>
                 </td>
             </tr>
         </table>
 
 
-    <script type="text/javascript">
-var qrcode = new QRCode(document.getElementById("qrcode<?= $k['idGuest']; ?>"), {
+<script type="text/javascript">
+var qrcode = new QRCode(document.getElementById("<?= $k['nicknameGuest']; ?>"), {
 	width : 60,
 	height : 60
 });
 
 function makeCode () {		
-	var elText = document.getElementById("text");
+	var elText = document.getElementById("text<?= $k['idGuest']; ?>");
 	
 	if (!elText.value) {
 		alert("Input a text");
@@ -103,7 +104,7 @@ function makeCode () {
 
 makeCode();
 
-$("#text").
+$("#text<?= $k['idGuest']; ?>").
 	on("blur", function () {
 		makeCode();
 	}).
