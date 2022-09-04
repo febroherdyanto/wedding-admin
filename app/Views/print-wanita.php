@@ -7,7 +7,7 @@
 <script type="text/javascript" src="<?= base_url('/assets/js/jquery.min.js'); ?>"></script>
 <script type="text/javascript" src="<?= base_url('/assets/js/qrcode.js'); ?>"></script>
 <script type="text/javascript" src="<?= base_url('/assets/js/code.js'); ?>"></script>
-    <title>Print Pria</title>
+    <title>Cetak Label Undangan Wanita</title>
     <style>
         body{
             width: 100%;
@@ -59,7 +59,13 @@
                         <tr>
                             <td style="width: 4cm; height: 2cm;">
                                 <span class="nama">
-                                    <b><?= $k['namaGuest']; ?></b>
+                                    <b>
+                                        <?php if($k['sapaanGuest']== NULL){
+                                            echo $k['namaGuest'];
+                                        }else{
+                                            echo $k['sapaanGuest'].". ".$k['namaGuest'];
+                                        } ?>
+                                    </b>
                                     <br> di<br>
                                     <i><?= $k['alamatGuest']; ?></i>
                                     <input id="text" type="hidden" value="https://wedding.febroherdyanto.id/<?= $k['nicknameGuest']; ?>" hidden>
