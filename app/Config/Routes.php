@@ -64,6 +64,11 @@ $routes->post('/inv-pria/update/(:num)', 'Invitation::editStatusPria/$1');
 $routes->get('/inv-wanita', 'Invitation::invWanita');
 $routes->post('/inv-wanita/update/(:num)', 'Invitation::editStatusWanita/$1');
 
+
+$routes->get('/print', 'Page::printmain');
+$routes->get('/print/pria', 'Cetak::pria');
+$routes->get('/print/wanita', 'Cetak::wanita');
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing

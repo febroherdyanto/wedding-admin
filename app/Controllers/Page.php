@@ -78,4 +78,10 @@ class Page extends BaseController
         $title = 'Data Doa dan Harapan Tamu Online';
         return view('doa', compact('title'));
     }
+    
+    public function printmain(){
+        $title = 'Cetak Label Undangan Fisik';
+
+        return view('print-main', compact('title'));
+    }
 }

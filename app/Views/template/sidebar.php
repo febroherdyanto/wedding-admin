@@ -86,6 +86,13 @@
                                       <span class="pcoded-mcaret"></span>
                                   </a>
                               </li>
+                              <li class="">
+                                  <a href="<?= base_url('/print'); ?>" class="waves-effect waves-dark">
+                                      <span class="pcoded-micon"><i class="fa-solid fa-print"></i></span>
+                                      <span class="pcoded-mtext" data-i18n="nav.dash.main">Cetak Label Undangan</span>
+                                      <span class="pcoded-mcaret"></span>
+                                  </a>
+                              </li>
                           </ul>
 
 
